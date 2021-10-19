@@ -1,2 +1,2 @@
-# An experimental website for a local youth developemnt hockey trainer.
+# An experimental website for a local youth development hockey trainer.
 
