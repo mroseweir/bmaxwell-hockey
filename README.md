@@ -1,2 +1,2 @@
-# Getting Started with Create React App
+# An experimental website for a local youth developemnt hockey trainer.
 
