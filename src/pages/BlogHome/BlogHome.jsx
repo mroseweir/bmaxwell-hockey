@@ -36,12 +36,13 @@ function BlogHome() {
         </div>
       ) : (
         <div>
-          <p>{blogs[0].title.rendered}</p>
-          {blogs.map((post, index) => {
-            <div>
-              <h1>{blogs[index].id}</h1>
-              <p>{blogs[index].content.rendered}</p>
-            </div>;
+          {blogs.map((blog, index) => {
+            return (
+              <div>
+                <h1>{blogs[index].title.rendered}</h1>
+                <p>{blogs[index].content.rendered}</p>
+              </div>
+            );
           })}
         </div>
       )}
